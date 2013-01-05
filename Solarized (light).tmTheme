@@ -655,14 +655,14 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#657b83</string>
+				<string>#657B83</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>HTML: =</string>
 			<key>scope</key>
-			<string>text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html, text.html.basic source.js.embedded.html, punctuation.separator.key-value.html</string>
+			<string>text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html, text.html.basic source.js.embedded.html, text.html.basic source.css.embedded.html, punctuation.separator.key-value.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -2051,9 +2051,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eee8d5</string>
+				<string>#EEE8D5</string>
 				<key>foreground</key>
-				<string>#eee8d5</string>
+				<string>#EEE8D5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2064,9 +2064,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#93a1a1</string>
+				<string>#93A1A1</string>
 				<key>foreground</key>
-				<string>#93a1a1</string>
+				<string>#93A1A1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2077,7 +2077,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#dc322f</string>
+				<string>#DC322F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2101,7 +2101,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#b58900</string>
+				<string>#B58900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2112,9 +2112,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#657b83</string>
+				<string>#657B83</string>
 				<key>foreground</key>
-				<string>#657b83</string>
+				<string>#657B83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2125,7 +2125,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#cb4b16</string>
+				<string>#CB4B16</string>
 			</dict>
 		</dict>
 
