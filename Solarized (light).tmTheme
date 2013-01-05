@@ -2126,19 +2126,85 @@
 				<string>#cb4b16</string>
 			</dict>
 		</dict>
+
+		<!-- BracketHighlighter -->
 		<dict>
 			<key>name</key>
-			<string>SublimeBracketHighlighter</string>
+			<string>Bracket Quote</string>
 			<key>scope</key>
-			<string>brackethighlighter.all</string>
+			<string>brackethighlighter.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF7E3</string>
+				<key>background</key>
+				<string>#B2AD9F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Curly</string>
+			<key>scope</key>
+			<string>brackethighlighter.curly</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF7E3</string>
+				<key>background</key>
+				<string>#B2AD9F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Round</string>
+			<key>scope</key>
+			<string>brackethighlighter.round</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF7E3</string>
+				<key>background</key>
+				<string>#B2AD9F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Square</string>
+			<key>scope</key>
+			<string>brackethighlighter.square</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF7E3</string>
+				<key>background</key>
+				<string>#B2AD9F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Angle</string>
+			<key>scope</key>
+			<string>brackethighlighter.angle</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF7E3</string>
+				<key>background</key>
+				<string>#B2AD9F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Tag</string>
+			<key>scope</key>
+			<string>brackethighlighter.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FDF6E3</string>
-				<key>foreground</key>
-				<string>#cb4b16</string>
+				<string>#A5A093</string>
 			</dict>
 		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>
