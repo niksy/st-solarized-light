@@ -24,7 +24,7 @@ div.styled {
 
 @import url("printstyle.css") print;
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
 	ul:last-of-type { display: none; }
 }
 
@@ -32,9 +32,9 @@ div.styled {
   font-family: "some typeface";
   src: url("type/filename.eot");
   src: local("☺"),
-    url("type/filename.woff") format("woff"),
-    url("type/filename.otf") format("opentype"),
-    url("type/filename.svg#filename") format("svg");
+	url("type/filename.woff") format("woff"),
+	url("type/filename.otf") format("opentype"),
+	url("type/filename.svg#filename") format("svg");
 }
 h2 { font-family: "some typeface", Georgia, serif; }
 
