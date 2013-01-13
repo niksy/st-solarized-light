@@ -216,7 +216,7 @@
 			<key>name</key>
 			<string>Tag name</string>
 			<key>scope</key>
-			<string>entity.name.tag</string>
+			<string>entity.name.tag, entity.tag.apacheconf</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -229,7 +229,7 @@
 			<key>name</key>
 			<string>Tag start/end</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.definition.tag.apacheconf</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -2037,6 +2037,29 @@
 			<dict>
 				<key>foreground</key>
 				<string>#DC322F</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Apache Configuration: Source</string>
+			<key>scope</key>
+			<string>source.apacheconf, string.path.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Apache Configuration: Value</string>
+			<key>scope</key>
+			<string>string.value.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2AA198</string>
 			</dict>
 		</dict>
 
