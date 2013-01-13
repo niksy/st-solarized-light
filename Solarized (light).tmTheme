@@ -23,6 +23,8 @@
 				<string>#586E75</string>
 				<key>selectionForeground</key>
 				<string>#FDF6E3</string>
+				<key>guide</key>
+				<string>#D4CEBD</string>
 			</dict>
 		</dict>
 		<dict>
