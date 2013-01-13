@@ -2065,6 +2065,20 @@
 
 		<dict>
 			<key>name</key>
+			<string>Find Results: File name</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>background</key>
+				<string>#F4EED9</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>text plain</string>
 			<key>scope</key>
 			<string>text.plain</string>
