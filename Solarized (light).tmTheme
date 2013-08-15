@@ -2068,78 +2068,24 @@
 		<!-- BracketHighlighter -->
 		<dict>
 			<key>name</key>
-			<string>Bracket Quote</string>
+			<string>Bracket Default</string>
 			<key>scope</key>
-			<string>brackethighlighter.quote</string>
+			<string>brackethighlighter.default</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#FFF7E3</string>
 				<key>background</key>
 				<string>#B2AD9F</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Bracket Curly</string>
+			<string>Bracket Unmatched</string>
 			<key>scope</key>
-			<string>brackethighlighter.curly</string>
+			<string>brackethighlighter.unmatched</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#FFF7E3</string>
 				<key>background</key>
 				<string>#B2AD9F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Bracket Round</string>
-			<key>scope</key>
-			<string>brackethighlighter.round</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFF7E3</string>
-				<key>background</key>
-				<string>#B2AD9F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Bracket Square</string>
-			<key>scope</key>
-			<string>brackethighlighter.square</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFF7E3</string>
-				<key>background</key>
-				<string>#B2AD9F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Bracket Angle</string>
-			<key>scope</key>
-			<string>brackethighlighter.angle</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFF7E3</string>
-				<key>background</key>
-				<string>#B2AD9F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Bracket Tag</string>
-			<key>scope</key>
-			<string>brackethighlighter.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#A5A093</string>
 			</dict>
 		</dict>
 
