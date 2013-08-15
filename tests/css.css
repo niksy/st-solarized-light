@@ -20,6 +20,7 @@ div.styled {
 	-moz-transition: width 2s;
 	-webkit-transition: width 2s;
 	-o-transition: width 2s;
+	background-color: rgba(0,0,0,0.5);
 }
 
 @import url("printstyle.css") print;
@@ -49,3 +50,43 @@ form p *:not(textarea):not(label) { height: 20px; }
 
 select option.element[selected] { font-weight: bold; }
 select option.element[contenteditable~="true false"] { border: 1px solid #999; }
+
+@-webkit-viewport { width:device-width; }
+   @-moz-viewport { width:device-width; }
+    @-ms-viewport { width:device-width; }
+     @-o-viewport { width:device-width; }
+        @viewport { width:device-width; }
+
+::selection {
+	background:red;
+}
+::-moz-selection {
+	background:red;
+}
+
+::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;
+}
+
+:-ms-input-placeholder {
+   color: red;
+}
+
+::placeholder {  /* Firefox 19+ */
+   color: red;
+}
+
+
+@supports ( display:flex; ) {
+	#something {
+		background:#f00;
+	}
+}
