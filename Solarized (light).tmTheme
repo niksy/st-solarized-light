@@ -376,6 +376,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS: @media, @supports, @import rules</string>
+			<key>scope</key>
+			<string>meta.at-rule.import, meta.at-rule.media, meta.at-rule.media keyword.control.operator, meta.at-rule.media support.function.misc, meta.at-rule.media constant.numeric.css, meta.at-rule.media keyword.other.unit.css, meta.at-rule.media constant.numeric.scss, meta.at-rule.media keyword.other.unit.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#268bd2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS: Numeric Value (blue)</string>
 			<key>scope</key>
 			<string>constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css</string>
