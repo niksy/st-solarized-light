@@ -2,9 +2,9 @@ body { height: 100%; }
 
 h1,
 article h2,
-section h3 { line-height: 2em; } /*comment goes here*/
+section h3 { line-height: 2em; } /* comment goes here */
 
-h8 { color: blue; } /*non spec element*/
+h8 { color: blue; } /* non spec element */
 
 div.styled {
 	position: relative;
@@ -26,7 +26,9 @@ div.styled {
 @import url("printstyle.css") print;
 
 @media screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
-	ul:last-of-type { display: none; }
+	ul:last-of-type {
+		display: none;
+	}
 }
 
 @font-face {
@@ -45,8 +47,8 @@ div #something > .link a:visited,
 div #something > .link a:visited { text-decoration: underline; }
 
 .element:first-child,
-ul:first-child li:nth-child(odd),
-form p *:not(textarea):not(label) { height: 20px; }
+ul:first-child li:nth-child(odd):nth-child(1n+2),
+form p *:not(#foo):not(figure.bar):not(label) { height: 20px; }
 
 select option.element[selected] { font-weight: bold; }
 select option.element[contenteditable~="true false"] { border: 1px solid #999; }
@@ -63,27 +65,21 @@ select option.element[contenteditable~="true false"] { border: 1px solid #999; }
 ::-moz-selection {
 	background:red;
 }
-
 ::-webkit-input-placeholder {
-   color: red;
+   color:red;
 }
-
-:-moz-placeholder { /* Firefox 18- */
-   color: red;
+:-moz-placeholder {
+   color:red;
 }
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: red;
+::-moz-placeholder {
+   color:red;
 }
-
 :-ms-input-placeholder {
-   color: red;
+   color:red;
 }
-
-::placeholder {  /* Firefox 19+ */
-   color: red;
+::placeholder {
+   color:red;
 }
-
 
 @supports ( display:flex; ) {
 	#something {
