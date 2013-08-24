@@ -2,6 +2,63 @@
 sample javascript from xui
 */
 
+var foo = 1;
+var bar = function(){
+	return bar;
+};
+
+function foo(q,context){
+	return true;
+};
+
+do
+if
+in
+for
+let
+new
+try
+var
+case
+else
+enum
+eval
+null
+this
+true
+void
+with
+break
+catch
+class
+const
+false
+super
+throw
+while
+yield
+delete
+export
+import
+public
+return
+static
+switch
+typeof
+default
+extends
+finally
+package
+private
+continue
+debugger
+function
+arguments
+interface
+protected
+implements
+instanceof
+
 var undefined,
 	xui,
 	window     = this,

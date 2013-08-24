@@ -3,8 +3,14 @@
 /* Block
 comment */
 
+@import "foo";
+
 $blue: #3bbfce;
 $margin: 16px;
+
+%placeholder-class {
+	text-align:center;
+}
 
 @mixin table-base {
 	th {
