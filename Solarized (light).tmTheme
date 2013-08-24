@@ -378,7 +378,7 @@
 			<key>name</key>
 			<string>CSS: @media, @supports, @import rules</string>
 			<key>scope</key>
-			<string>meta.at-rule.import, meta.at-rule.media, meta.at-rule.media keyword.control.operator, meta.at-rule.media support.function.misc, meta.at-rule.media constant.numeric.css, meta.at-rule.media keyword.other.unit.css, meta.at-rule.media constant.numeric.scss, meta.at-rule.media keyword.other.unit.scss</string>
+			<string>meta.at-rule.import, meta.at-rule.media, meta.at-rule.supports, meta.at-rule.media keyword.control.operator, meta.at-rule.media support.function.misc, meta.at-rule.media constant.numeric.css, meta.at-rule.media keyword.other.unit.css, meta.at-rule.media constant.numeric.scss, meta.at-rule.media keyword.other.unit.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
