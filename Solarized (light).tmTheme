@@ -1916,7 +1916,7 @@
 			<key>Name</key>
 			<string>Markdown text inside some block element</string>
 			<key>scope</key>
-			<string>markup.quote, meta.paragraph.list</string>
+			<string>markup.quote, meta.paragraph.list, text.html.markdown punctuation.definition.list_item</string>
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
