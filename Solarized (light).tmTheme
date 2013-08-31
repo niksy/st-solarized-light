@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>name</key>
@@ -15,6 +15,8 @@
 				<string>#657B83</string>
 				<key>foreground</key>
 				<string>#657B83</string>
+				<key>guide</key>
+				<string>#D4CEBD</string>
 				<key>invisibles</key>
 				<string>#EEE8D5</string>
 				<key>lineHighlight</key>
@@ -23,8 +25,6 @@
 				<string>#586E75</string>
 				<key>selectionForeground</key>
 				<string>#FDF6E3</string>
-				<key>guide</key>
-				<string>#D4CEBD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -202,7 +202,8 @@
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -210,7 +211,8 @@
 			<key>scope</key>
 			<string>variable.parameter</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -275,7 +277,8 @@
 			<key>scope</key>
 			<string>support.constant</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -316,7 +319,8 @@
 			<key>scope</key>
 			<string>support.other.variable</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -324,7 +328,8 @@
 			<key>scope</key>
 			<string>invalid</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -420,10 +425,10 @@
 			<string>keyword.other.important.css, keyword.other.important.scss</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#DC322F</string>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#DC322F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -452,7 +457,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Selector > [] and non-spec tags (body)</string>
+			<string>CSS: Selector &gt; [] and non-spec tags (body)</string>
 			<key>scope</key>
 			<string>meta.selector.css</string>
 			<key>settings</key>
@@ -784,10 +789,10 @@
 			<string>source.js.embedded.html, source.css.embedded.html</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#839496</string>
 				<key>background</key>
 				<string>#F4EED9</string>
+				<key>foreground</key>
+				<string>#839496</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1896,10 +1901,10 @@
 			<key>scope</key>
 			<string>markup.list, text.html.markdown punctuation.definition, meta.separator.markdown</string>
 			<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#CB4b16</string>
-				</dict>
+			<dict>
+				<key>foreground</key>
+				<string>#CB4b16</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -1907,10 +1912,10 @@
 			<key>scope</key>
 			<string>markup.heading</string>
 			<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#268BD2</string>
-				</dict>
+			<dict>
+				<key>foreground</key>
+				<string>#268BD2</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -1918,10 +1923,10 @@
 			<key>scope</key>
 			<string>markup.quote, meta.paragraph.list, text.html.markdown punctuation.definition.list_item</string>
 			<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#2AA198</string>
-				</dict>
+			<dict>
+				<key>foreground</key>
+				<string>#2AA198</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -1929,10 +1934,10 @@
 			<key>scope</key>
 			<string>markup.italic</string>
 			<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>italic</string>
-				</dict>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -1940,10 +1945,10 @@
 			<key>scope</key>
 			<string>markup.bold</string>
 			<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
-				</dict>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -1951,10 +1956,10 @@
 			<key>scope</key>
 			<string>markup.underline.link.markdown, meta.link.inline punctuation.definition.metadata, meta.link.reference.markdown punctuation.definition.constant, meta.link.reference.markdown constant.other.reference</string>
 			<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#B58900</string>
-				</dict>
+			<dict>
+				<key>foreground</key>
+				<string>#B58900</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -1962,12 +1967,11 @@
 			<key>scope</key>
 			<string>meta.paragraph.markdown meta.dummy.line-break</string>
 			<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#6C71c4</string>
-				</dict>
+			<dict>
+				<key>background</key>
+				<string>#6C71c4</string>
+			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Apache Configuration: Source</string>
@@ -1990,7 +1994,6 @@
 				<string>#2AA198</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Find Results: File name</string>
@@ -1998,13 +2001,12 @@
 			<string>entity.name.filename.find-in-files</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>background</key>
 				<string>#F4EED9</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>SublimeLinter Annotations</string>
@@ -2090,8 +2092,6 @@
 				<string>#CB4B16</string>
 			</dict>
 		</dict>
-
-		<!-- BracketHighlighter -->
 		<dict>
 			<key>name</key>
 			<string>Bracket Default</string>
@@ -2114,7 +2114,6 @@
 				<string>#B2AD9F</string>
 			</dict>
 		</dict>
-
 	</array>
 	<key>uuid</key>
 	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>
