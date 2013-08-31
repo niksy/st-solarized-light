@@ -355,6 +355,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>()</string>
+			<key>scope</key>
+			<string>meta.brace.round</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93A1A1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS: Property name (body)</string>
 			<key>scope</key>
 			<string>entity.name.tag.css, support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss</string>
@@ -533,13 +544,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Function Name</string>
+			<string>JS: Keyword control</string>
 			<key>scope</key>
-			<string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
+			<string>source.js keyword.control</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#B58900</string>
+				<string>#6c71c4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Function Name</string>
+			<key>scope</key>
+			<string>entity.name.function.js, support.function.dom.js, entity.name.method.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -550,20 +576,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Source</string>
-			<key>scope</key>
-			<string>text.html.basic source.js.embedded.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#B58900</string>
+				<string>#d33682</string>
 			</dict>
 		</dict>
 		<dict>
@@ -592,24 +605,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: []</string>
+			<string>JS: Storage Type</string>
 			<key>scope</key>
-			<string>meta.brace.square.js</string>
+			<string>storage.type.js, keyword.control.declaration.js</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#268BD2</string>
+				<string>#859900</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Storage Type</string>
+			<string>JS: Variable name</string>
 			<key>scope</key>
-			<string>storage.type.js</string>
+			<string>variable.other.readwrite.js</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#268BD2</string>
+				<string>#657b83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -627,24 +644,100 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>()</string>
+			<string>JS: Object</string>
 			<key>scope</key>
-			<string>meta.brace.round, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js</string>
+			<string>variable.other.object.js, meta.function.js support.object.js</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#93A1A1</string>
+				<string>#657b83</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>{}</string>
+			<string>JS: Object property</string>
 			<key>scope</key>
-			<string>meta.brace.curly.js</string>
+			<string>variable.other.property.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Object, unqouted property</string>
+			<key>scope</key>
+			<string>constant.other.object.key.js string.unquoted.label.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#657B83</string>
+				<string>#2aa198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Object, unqouted method</string>
+			<key>scope</key>
+			<string>meta.function.json.js entity.name.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#2aa198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Delimiter</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value.js, meta.delimiter.method.period.js, keyword.operator.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93a1a1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Constant</string>
+			<key>scope</key>
+			<string>source.js constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic bold</string>
+				<key>foreground</key>
+				<string>#268bd2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: (), {}, []</string>
+			<key>scope</key>
+			<string>source.js meta.function.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93a1a1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Source</string>
+			<key>scope</key>
+			<string>text.html.basic source.js.embedded.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#B58900</string>
 			</dict>
 		</dict>
 		<dict>
