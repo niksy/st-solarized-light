@@ -559,7 +559,7 @@
 			<key>name</key>
 			<string>JS: Function Name</string>
 			<key>scope</key>
-			<string>entity.name.function.js, support.function.dom.js, entity.name.method.js</string>
+			<string>entity.name.function.js, support.function.dom.js, entity.name.method.js, support.function.js.firebug</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -631,9 +631,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Console</string>
+			<string>JS: Console and debugger</string>
 			<key>scope</key>
-			<string>entity.name.type.object.js.firebug</string>
+			<string>entity.name.type.object.js.firebug, keyword.control.debug.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

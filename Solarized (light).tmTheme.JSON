@@ -343,9 +343,9 @@
         },
         {
             "name": "JS: Function Name",
-            "scope": "entity.name.function.js, support.function.dom.js, entity.name.method.js",
+            "scope": "entity.name.function.js, support.function.dom.js, entity.name.method.js, support.function.js.firebug",
             "settings": {
-            	"fontStyle": "bold",
+                "fontStyle": "bold",
                 "foreground": "#586e75"
             }
         },
@@ -375,7 +375,7 @@
             "name": "JS: Storage Type",
             "scope": "storage.type.js, keyword.control.declaration.js",
             "settings": {
-            	"fontStyle": "bold",
+                "fontStyle": "bold",
                 "foreground": "#859900"
             }
         },
