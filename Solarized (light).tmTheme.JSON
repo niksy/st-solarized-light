@@ -419,11 +419,11 @@
             }
         },
         {
-        	"name": "JS: Object, unqouted property",
-        	"scope": "constant.other.object.key.js string.unquoted.label.js",
-        	"settings": {
-        		"foreground": "#2aa198"
-        	}
+            "name": "JS: Object, unqouted property",
+            "scope": "constant.other.object.key.js string.unquoted.label.js",
+            "settings": {
+                "foreground": "#2aa198"
+            }
         },
         {
             "name": "JS: Object, unqouted method",
@@ -434,19 +434,19 @@
             }
         },
         {
-        	"name": "JS: Delimiter",
-        	"scope": "punctuation.separator.key-value.js, meta.delimiter.method.period.js, keyword.operator.js",
-        	"settings": {
-        		"foreground": "#93a1a1"
-        	}
+            "name": "JS: Delimiter",
+            "scope": "punctuation.separator.key-value.js, meta.delimiter.method.period.js, keyword.operator.js",
+            "settings": {
+                "foreground": "#93a1a1"
+            }
         },
         {
-        	"name": "JS: Constant",
-        	"scope": "source.js constant.language",
-        	"settings": {
-        		"fontStyle": "italic bold",
-        		"foreground": "#268bd2"
-        	}
+            "name": "JS: Constant",
+            "scope": "source.js constant.language",
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#268bd2"
+            }
         },
         {
             "name": "JS: (), {}, []",
