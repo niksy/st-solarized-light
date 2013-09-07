@@ -388,11 +388,18 @@
             }
         },
         {
-            "name": "JS: Console",
-            "scope": "entity.name.type.object.js.firebug",
+            "name": "JS: Console and debugger",
+            "scope": "entity.name.type.object.js.firebug, keyword.control.debug.js",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#DC322F"
+            }
+        },
+        {
+            "name": "JS: this",
+            "scope": "variable.language.this.js",
+            "settings": {
+                "fontStyle": "italic"
             }
         },
         {

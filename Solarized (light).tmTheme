@@ -644,6 +644,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS: this</string>
+			<key>scope</key>
+			<string>variable.language.this.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS: Object</string>
 			<key>scope</key>
 			<string>variable.other.object.js, meta.function.js support.object.js</string>
