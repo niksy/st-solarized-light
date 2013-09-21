@@ -52,6 +52,8 @@ form p *:not(#foo):not(figure.bar):not(label) { height: 20px; }
 
 select option.element[selected] { font-weight: bold; }
 select option.element[contenteditable~="true false"] { border: 1px solid #999; }
+[tabindex="0"] { color:#ff0; *color:#f00; }
+main, template {}
 
 @-webkit-viewport { width:device-width; }
    @-moz-viewport { width:device-width; }
@@ -85,4 +87,17 @@ select option.element[contenteditable~="true false"] { border: 1px solid #999; }
 	#something {
 		background:#f00;
 	}
+}
+
+@-webkit-keyframes myanim {
+
+}
+@-moz-keyframes myanim {
+
+}
+@-o-keyframes myanim {
+
+}
+@keyframes {
+
 }
