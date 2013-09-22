@@ -2025,7 +2025,7 @@
 			<key>Name</key>
 			<string>Markdown text inside some block element</string>
 			<key>scope</key>
-			<string>markup.quote, meta.paragraph.list, text.html.markdown punctuation.definition.list_item</string>
+			<string>markup.quote, meta.paragraph.list, text.html.markdown punctuation.definition.list_item, markup.list.unnumbered.markdown, markup.list.numbered.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

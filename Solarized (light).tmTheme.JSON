@@ -1256,7 +1256,7 @@
         },
         {
             "Name": "Markdown text inside some block element",
-            "scope": "markup.quote, meta.paragraph.list, text.html.markdown punctuation.definition.list_item",
+            "scope": "markup.quote, meta.paragraph.list, text.html.markdown punctuation.definition.list_item, markup.list.unnumbered.markdown, markup.list.numbered.markdown",
             "settings": {
                 "foreground": "#2AA198"
             }
