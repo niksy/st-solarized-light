@@ -23,6 +23,7 @@ $margin: 16px;
 @mixin left($dist) {
 	float: left;
 	margin-left: $dist;
+	@debug $dist;
 }
 
 @function function-name($foo) {

@@ -334,6 +334,14 @@
             }
         },
         {
+            "name": "SCSS: Debug",
+            "scope": "keyword.control.warn.scss, keyword.control.warn.scss punctuation.definition.keyword.scss",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#DC322F"
+            }
+        },
+        {
             "name": "JS: Keyword control",
             "scope": "source.js keyword.control",
             "settings": {
