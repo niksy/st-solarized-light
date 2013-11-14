@@ -34,6 +34,7 @@ $margin: 16px;
 	@include block-standard-table;
 	border-color: $blue;
 	color: darken($blue, 9%);
+	table-layout:fixed;
 }
 
 .border {

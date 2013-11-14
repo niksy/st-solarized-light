@@ -225,7 +225,7 @@
         },
         {
             "name": "CSS: Property name (body)",
-            "scope": "entity.name.tag.css, support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss",
+            "scope": "meta.property-list.css entity.name.tag.css, meta.property-list.scss entity.name.tag.scss, entity.name.tag.css, support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#657B83"
