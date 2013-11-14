@@ -249,7 +249,7 @@
         },
         {
             "name": "CSS: Numeric Value (blue)",
-            "scope": "constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css",
+            "scope": "meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#268BD2"
