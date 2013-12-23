@@ -1381,6 +1381,34 @@
             "settings": {
                 "background": "#B2AD9F"
             }
+        },
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "settings": {
+                "foreground": "#DC322F"
+            }
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "settings": {
+                "foreground": "#859900"
+            }
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "settings": {
+                "foreground": "#B58900"
+            }
+        },
+        {
+            "name": "Find In Files: File Name",
+            "scope": "entity.name.filename.find-in-files",
+            "settings": {
+                "foreground": "#2AA198"
+            }
         }
     ],
     "uuid": "38E819D9-AE02-452F-9231-ECC3B204AFD7"
