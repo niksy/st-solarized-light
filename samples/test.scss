@@ -4,6 +4,7 @@
 comment */
 
 @import "foo";
+@import url("printstyle.css") print;
 
 $blue: #3bbfce;
 $margin: 16px;
