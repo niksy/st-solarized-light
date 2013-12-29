@@ -1409,6 +1409,91 @@
             "settings": {
                 "foreground": "#2AA198"
             }
+        },
+        {
+            "name": "Git Commit: Diff",
+            "scope": "meta.diff.git-commit",
+            "settings": {
+                "foreground": "#839496"
+            }
+        },
+        {
+            "name": "Git Commit: Diff, header, from file",
+            "scope": "meta.diff.git-commit meta.diff.header.from-file",
+            "settings": {
+                "foreground": "#cb4b16"
+            }
+        },
+        {
+            "name": "Git Commit: Diff, header, to file",
+            "scope": "meta.diff.git-commit meta.diff.header.to-file",
+            "settings": {
+                "foreground": "#2aa198"
+            }
+        },
+        {
+            "name": "Git Commit: Line too long warning",
+            "scope": "invalid.warning.line-too-long.git-commit",
+            "settings": {
+                "foreground": "#B58900"
+            }
+        },
+        {
+            "name": "Git Commit: Line too long error",
+            "scope": "invalid.error.line-too-long.git-commit",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#DC322F"
+            }
+        },
+        {
+            "name": "Git Rebase: SHA",
+            "scope": "constant.sha.git-rebase",
+            "settings": {
+                "foreground": "#B58900"
+            }
+        },
+        {
+            "name": "Git Rebase: Command",
+            "scope": "support.function.git-rebase",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Git Config: Section",
+            "scope": "meta.section.git-config",
+            "settings": {
+                "foreground": "#6c71c4"
+            }
+        },
+        {
+            "name": "Git Config: Section name",
+            "scope": "entity.name.section.git-config",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Git Config: Subsection name",
+            "scope": "entity.name.section.subsection.git-config",
+            "settings": {
+                "foreground": "#d33682"
+            }
+        },
+        {
+            "name": "Git Config: Property declaration",
+            "scope": "meta.value-pair.section-item.git-config",
+            "settings": {
+                "foreground": "#2aa198"
+            }
+        },
+        {
+            "name": "Git Config: Property name",
+            "scope": "meta.value-pair.section-item.git-config support.constant.git-config, punctuation.separator.key-value.git-config",
+            "settings": {
+                "foreground": "#268bd2"
+            }
         }
     ],
     "uuid": "38E819D9-AE02-452F-9231-ECC3B204AFD7"

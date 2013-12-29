@@ -2267,6 +2267,140 @@
 				<string>#2AA198</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Commit: Diff</string>
+			<key>scope</key>
+			<string>meta.diff.git-commit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Commit: Diff, header, from file</string>
+			<key>scope</key>
+			<string>meta.diff.git-commit meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cb4b16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Commit: Diff, header, to file</string>
+			<key>scope</key>
+			<string>meta.diff.git-commit meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2aa198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Commit: Line too long warning</string>
+			<key>scope</key>
+			<string>invalid.warning.line-too-long.git-commit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Commit: Line too long error</string>
+			<key>scope</key>
+			<string>invalid.error.line-too-long.git-commit</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#DC322F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Rebase: SHA</string>
+			<key>scope</key>
+			<string>constant.sha.git-rebase</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Rebase: Command</string>
+			<key>scope</key>
+			<string>support.function.git-rebase</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Config: Section</string>
+			<key>scope</key>
+			<string>meta.section.git-config</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6c71c4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Config: Section name</string>
+			<key>scope</key>
+			<string>entity.name.section.git-config</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Config: Subsection name</string>
+			<key>scope</key>
+			<string>entity.name.section.subsection.git-config</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d33682</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Config: Property declaration</string>
+			<key>scope</key>
+			<string>meta.value-pair.section-item.git-config</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2aa198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Config: Property name</string>
+			<key>scope</key>
+			<string>meta.value-pair.section-item.git-config support.constant.git-config, punctuation.separator.key-value.git-config</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#268bd2</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>
