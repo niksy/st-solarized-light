@@ -744,7 +744,7 @@
 			<key>name</key>
 			<string>JS: (), {}, []</string>
 			<key>scope</key>
-			<string>source.js meta.function.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
+			<string>source.js meta.function.js punctuation.definition.parameters, source.js meta.function.static.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
