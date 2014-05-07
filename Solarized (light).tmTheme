@@ -646,7 +646,7 @@
 			<key>name</key>
 			<string>JS: Console and debugger</string>
 			<key>scope</key>
-			<string>entity.name.type.object.js.firebug, keyword.control.debug.js</string>
+			<string>entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
