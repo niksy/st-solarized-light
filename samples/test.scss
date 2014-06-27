@@ -137,6 +137,8 @@ main, template {}
      @-o-viewport { width:device-width; }
         @viewport { width:device-width; }
 
+@-moz-document url-prefix() {}
+
 ::selection {
 	background:red;
 }
@@ -178,3 +180,42 @@ main, template {}
 
 }
 
+$colors: (
+  header: #b06,
+  text: #334,
+  footer: #666777,
+);
+
+.button {
+
+  &-primary { background: orange; }
+  &-secondary { background: blue; }
+}
+
+.message {
+
+  @at-root .info { color: blue; }
+  @at-root .error { color: red; }
+}
+
+@media print {
+  .page {
+    width: 8in !important;
+
+    @at-root (without: media) {
+      width: 960px;
+    }
+  }
+}
+
+$animals: (puma, black, default),
+          (sea-slug, blue, pointer),
+          (egret, white, move);
+
+@each $animal, $color, $cursor in $animals {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+    border: 2px solid $color;
+    cursor: $cursor;
+  }
+}

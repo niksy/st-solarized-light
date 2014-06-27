@@ -407,7 +407,7 @@
 			<key>name</key>
 			<string>CSS: Numeric Value (blue)</string>
 			<key>scope</key>
-			<string>meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css</string>
+			<string>support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -496,7 +496,7 @@
 			<key>name</key>
 			<string>CSS .class (yellow)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css, entity.other.less.mixin</string>
+			<string>entity.other.attribute-name.suffix.scss, entity.other.attribute-name.class.css, entity.other.less.mixin</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -744,7 +744,7 @@
 			<key>name</key>
 			<string>JS: (), {}, []</string>
 			<key>scope</key>
-			<string>source.js meta.function.js punctuation.definition.parameters, source.js meta.function.static.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
+			<string>source.js meta.function.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

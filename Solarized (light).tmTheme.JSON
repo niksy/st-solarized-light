@@ -249,7 +249,7 @@
         },
         {
             "name": "CSS: Numeric Value (blue)",
-            "scope": "meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css",
+            "scope": "support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#268BD2"
@@ -304,7 +304,7 @@
         },
         {
             "name": "CSS .class (yellow)",
-            "scope": "entity.other.attribute-name.class.css, entity.other.less.mixin",
+            "scope": "entity.other.attribute-name.suffix.scss, entity.other.attribute-name.class.css, entity.other.less.mixin",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#B58900"
