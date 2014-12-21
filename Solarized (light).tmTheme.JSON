@@ -450,7 +450,7 @@
         },
         {
             "name": "JS: Constant",
-            "scope": "source.js constant.language",
+            "scope": "source.js constant.language, source.json constant.language",
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#268bd2"
@@ -458,7 +458,7 @@
         },
         {
             "name": "JS: (), {}, []",
-            "scope": "source.js meta.function.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope",
+            "scope": "source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope",
             "settings": {
                 "foreground": "#93a1a1"
             }

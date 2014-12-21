@@ -731,7 +731,7 @@
 			<key>name</key>
 			<string>JS: Constant</string>
 			<key>scope</key>
-			<string>source.js constant.language</string>
+			<string>source.js constant.language, source.json constant.language</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -744,7 +744,7 @@
 			<key>name</key>
 			<string>JS: (), {}, []</string>
 			<key>scope</key>
-			<string>source.js meta.function.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
+			<string>source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
