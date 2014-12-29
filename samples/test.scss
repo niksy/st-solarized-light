@@ -219,3 +219,14 @@ $animals: (puma, black, default),
     cursor: $cursor;
   }
 }
+
+.foo {
+	@include bar(
+		('baz', 1),
+		('bad', '2')
+	) {
+		.bag {
+			color:red;
+		}
+	}
+}
