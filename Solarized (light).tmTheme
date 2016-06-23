@@ -722,7 +722,7 @@
 			<key>name</key>
 			<string>JS: Delimiter</string>
 			<key>scope</key>
-			<string>punctuation.separator.key-value.js, meta.delimiter.method.period.js, keyword.operator.js</string>
+			<string>punctuation.separator.key-value.js, meta.delimiter.method.period.js, keyword.operator.js, keyword.operator.assignment.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -2425,6 +2425,30 @@
 			<dict>
 				<key>foreground</key>
 				<string>#268bd2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find In Files: Matched line numbers</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number.match.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Arithmetical, Assignment, Comparision Operators</string>
+			<key>scope</key>
+			<string>keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#859900</string>
 			</dict>
 		</dict>
 	</array>
