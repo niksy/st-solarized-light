@@ -2007,6 +2007,78 @@
 			</dict>
 		</dict>
 		<dict>
+			<key>name</key>
+			<string>Twig: Variable</string>
+			<key>scope</key>
+			<string>variable.other.twig, variable.other.property.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#586e75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig: Function</string>
+			<key>scope</key>
+			<string>support.function.twig, meta.function-call.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#586e75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig: Block</string>
+			<key>scope</key>
+			<string>meta.tag.template.block.twig, meta.tag.template.value.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F4EED9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig: Start/End delimiters</string>
+			<key>scope</key>
+			<string>punctuation.section.tag.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#93A1A1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig: Control</string>
+			<key>scope</key>
+			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.other.twig, meta.tag.template.value.twig keyword.operator.assignment.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig: Variable assignment</string>
+			<key>scope</key>
+			<string>meta.tag.template.block.twig keyword.operator.assignment.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#93a1a1</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>Name</key>
 			<string>Markdown punctuation</string>
 			<key>scope</key>
