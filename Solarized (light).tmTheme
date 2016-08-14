@@ -337,7 +337,7 @@
 			<key>name</key>
 			<string>Quoted String</string>
 			<key>scope</key>
-			<string>string.quoted.double, string.quoted.single</string>
+			<string>string.quoted.double, string.quoted.single, string.template-string.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -348,11 +348,11 @@
 			<key>name</key>
 			<string>Quotes</string>
 			<key>scope</key>
-			<string>punctuation.definition.string.begin, punctuation.definition.string.end</string>
+			<string>punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.template-string.begin.js, punctuation.definition.template-string.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DC322F</string>
+				<string>#839496</string>
 			</dict>
 		</dict>
 		<dict>
@@ -574,7 +574,7 @@
 			<key>name</key>
 			<string>JS: Function Name</string>
 			<key>scope</key>
-			<string>entity.name.function.js, support.function.dom.js, entity.name.method.js, support.function.js.firebug, support.function.console.js</string>
+			<string>entity.name.function.js, support.function.dom.js, entity.name.method.js, support.function.js.firebug, support.function.console.js, entity.template-string.tag.name.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -764,6 +764,17 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#B58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Template string, element</string>
+			<key>scope</key>
+			<string>punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93A1A1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1128,17 +1139,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#2AA198</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Quoted Single</string>
-			<key>scope</key>
-			<string>punctuation.definition.string.begin, punctuation.definition.string.end</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#839496</string>
 			</dict>
 		</dict>
 		<dict>
