@@ -672,7 +672,7 @@
 			<key>name</key>
 			<string>JS: Object</string>
 			<key>scope</key>
-			<string>variable.other.object.js, meta.function.js support.object.js</string>
+			<string>variable.other.object.js, meta.property.object.js, meta.function.js support.object.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
