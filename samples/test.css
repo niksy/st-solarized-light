@@ -46,6 +46,8 @@ div #something > .link a,
 div #something > .link a:link,
 div #something > .link a:visited,
 div #something > .link a:visited { text-decoration: underline; }
+div #something > .link a:hover { text-decoration: underline; }
+div #something > .link a:enter { text-decoration: underline; }
 
 .element:first-child,
 ul:first-child li:nth-child(odd):nth-child(1n+2),

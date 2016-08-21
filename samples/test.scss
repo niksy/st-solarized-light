@@ -36,6 +36,14 @@ $margin: 16px;
 	border-color: $blue;
 	color: darken($blue, 9%);
 	table-layout:fixed;
+
+	&:hover {
+		color: #f00;
+	}
+
+	&:enter {
+		color: #ff0;
+	}
 }
 
 .border {

@@ -524,7 +524,7 @@
 			<key>name</key>
 			<string>CSS :pseudo (orange)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css</string>
+			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
