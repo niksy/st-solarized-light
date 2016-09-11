@@ -67,7 +67,10 @@ var obj = {
 
 // String interpolation
 var name = "Bob", time = "today", foo = { bar: 1 };
-`Hello ${name}, how are you ${time}, ${foo.bar}?`
+`Hello ${name}, how are you ${time}, ${foo.bar} ${foo.bar()} ${path.join(1,2)}?`
+
+foo.bar();
+path.join(1,2);
 
 // Construct an HTTP request prefix is used to interpret the replacements and construction
 POST`http://foo.org/bar?a=${a}&b=${b}`(myOnReadyStateChangeHandler);
@@ -322,6 +325,9 @@ function foo(q,context){
 
 var foo = {
   bar: function () {
+    return 1;
+  },
+  bad: () => {
     return 1;
   },
   baz: 1,
