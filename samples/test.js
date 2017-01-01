@@ -75,6 +75,17 @@ path.join(1,2);
 // Construct an HTTP request prefix is used to interpret the replacements and construction
 POST`http://foo.org/bar?a=${a}&b=${b}`(myOnReadyStateChangeHandler);
 
+// Indented string interpolation
+`<div>${[].map(() => {
+  return `<div>${[].map(() => {
+    return `<div>${[].map(() => {
+      return `<div>${[].map(() => {
+        return `<div></div>`;
+      })}</div>`;
+    })}</div>`;
+  })}/div>`;
+})}</div>`
+
 // list matching
 var [a, , b] = [1,2,3];
 
@@ -309,6 +320,17 @@ var p = timeout(1000).then(() => {
 }).catch(err => {
     return Promise.all([timeout(100), timeout(200)]);
 })
+
+// JSX
+
+const App = () => {
+  return (
+    <div className="foo">{
+      [].map(() => <button type="button" onClick={this.handleClick}></button>)
+    }</div>
+  );
+}
+ReactDOM.render(<App />, document.getElementById('app'));
 
 /**
 sample javascript from xui

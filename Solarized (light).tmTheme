@@ -337,7 +337,7 @@
 			<key>name</key>
 			<string>Quoted String</string>
 			<key>scope</key>
-			<string>string.quoted.double, string.quoted.single, string.template-string.js</string>
+			<string>string.quoted.double, string.quoted.single, string.template-string.js, string.template-string.js string.template-string.js, string.quoted.jsx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -744,13 +744,26 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: (), {}, []</string>
+			<string>JS: (), {}, [], ,</string>
 			<key>scope</key>
-			<string>source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
+			<string>source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#93a1a1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: ,</string>
+			<key>scope</key>
+			<string>punctuation.terminator.statement.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#657B83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -782,6 +795,28 @@
 			<string>JS: Template string, element start and begin</string>
 			<key>scope</key>
 			<string>punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93A1A1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Element</string>
+			<key>scope</key>
+			<string>meta.jsx.js</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F4EED9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Element start and begin</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
