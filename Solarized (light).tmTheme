@@ -407,6 +407,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS: css-modules import path</string>
+			<key>scope</key>
+			<string>meta.import.css-modules.css, meta.import.css-modules.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#268bd2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS: Numeric Value (blue)</string>
 			<key>scope</key>
 			<string>support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css</string>
@@ -524,7 +537,7 @@
 			<key>name</key>
 			<string>CSS :pseudo (orange)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css</string>
+			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css, entity.other.attribute-name.pseudo-class.css-modules.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
