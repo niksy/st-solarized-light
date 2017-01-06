@@ -24,3 +24,13 @@ And matched, and they still fold **properly**
 Some code:
 
     a verbatim or "code" block
+
+```js
+const katie = require('katie');
+
+Promise.resolve()
+	.then(( res ) => {
+		console.log(res);
+		// [{ url: 'http://example.com/katie', }, …]
+	});
+```
