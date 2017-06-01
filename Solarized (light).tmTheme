@@ -722,7 +722,7 @@
 			<key>name</key>
 			<string>JS: Object, unqouted method</string>
 			<key>scope</key>
-			<string>meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js</string>
+			<string>meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
