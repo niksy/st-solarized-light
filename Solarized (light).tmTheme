@@ -600,7 +600,7 @@
 			<key>name</key>
 			<string>JS: Function Arguments</string>
 			<key>scope</key>
-			<string>variable.parameter.function.js, meta.function.js meta.group.braces.curly variable.other.readwrite.js</string>
+			<string>variable.parameter.function.js, meta.function.js meta.group.braces.curly variable.other.readwrite.js, meta.method.js meta.group.braces.curly variable.other.readwrite.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
