@@ -1,4 +1,17 @@
 <?php
+
+namespace Trikoder\Classifieds\Njuskalo\Core\Front\Banners;
+
+use fw3k2_db_persistent;
+
+class Foo extends Bar
+{
+	public function foo ($bar, $baz)
+	{
+
+	}
+}
+
 /* Comment */
 // Comment
 require_once($GLOBALS['g_campsiteDir']. "/$ADMIN_DIR/country/common.php");
@@ -17,6 +30,7 @@ $numCountries = Country::GetNumCountries($f_country_language_selected);
 $pager = new SimplePager($numCountries, $ItemsPerPage, "index.php?");
 
 $crumbs = array();
+$crumbs = [];
 $crumbs[] = array(getGS("Configure"), "");
 $crumbs[] = array(getGS("Countries"), "");
 echo camp_html_breadcrumbs($crumbs);
