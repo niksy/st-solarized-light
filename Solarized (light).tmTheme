@@ -838,6 +838,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Vue: Template interpolation</string>
+			<key>scope</key>
+			<string>text.html.vue punctuation.definition.template.begin.html, text.html.vue punctuation.definition.template.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>background</key>
+				<string>#F4EED9</string>
+				<key>foreground</key>
+				<string>#93A1A1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>HTML: Doctype</string>
 			<key>scope</key>
 			<string>entity.name.tag.doctype.html, meta.tag.sgml.html, string.quoted.double.doctype.identifiers-and-DTDs.html</string>
@@ -975,7 +990,7 @@
 			<key>name</key>
 			<string>HTML: Embeddable</string>
 			<key>scope</key>
-			<string>source.js.embedded.html, source.css.embedded.html</string>
+			<string>source.js.embedded.html, source.css.embedded.html, text.html.vue source.js</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
