@@ -3280,6 +3280,17 @@
 				<string>#A6A6A6FF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hosts: IP address</string>
+			<key>scope</key>
+			<string>text.hosts support.constant.built-in.hosts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B58900</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>
