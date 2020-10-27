@@ -71,10 +71,10 @@
 			<string>string.regexp</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#DC322F</string>
 				<key>background</key>
 				<string>#F4EED9</string>
+				<key>foreground</key>
+				<string>#DC322F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2151,7 +2151,7 @@
 			<key>name</key>
 			<string>Twig: Function</string>
 			<key>scope</key>
-			<string>support.function.twig, meta.function-call.twig</string>
+			<string>support.function.twig, meta.function-call.twig, variable.function.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -2164,7 +2164,7 @@
 			<key>name</key>
 			<string>Twig: Block</string>
 			<key>scope</key>
-			<string>meta.tag.template.block.twig, meta.tag.template.value.twig</string>
+			<string>meta.tag.template.block.twig, meta.tag.template.value.twig, meta.placeholder.twig, meta.statement.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -2175,7 +2175,7 @@
 			<key>name</key>
 			<string>Twig: Start/End delimiters</string>
 			<key>scope</key>
-			<string>punctuation.section.tag.twig</string>
+			<string>punctuation.section.tag.twig, punctuation.definition.placeholder.begin.twig, punctuation.definition.placeholder.end.twig, punctuation.definition.statement.begin.twig, punctuation.definition.statement.end.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -2188,7 +2188,7 @@
 			<key>name</key>
 			<string>Twig: Control</string>
 			<key>scope</key>
-			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.other.twig, meta.tag.template.value.twig keyword.operator.assignment.twig</string>
+			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.other.twig, meta.tag.template.value.twig keyword.operator.assignment.twig, keyword.control.loop.for.twig, keyword.control.loop.end.twig, keyword.other.tag.twig, keyword.other.endtag.twig, keyword.control.conditional.if.twig, keyword.control.conditional.end.twig, keyword.operator.logical.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -3379,6 +3379,28 @@
 				<string>#ABC123FF</string>
 				<key>foreground</key>
 				<string>#282828FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_0000CCFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#0000CCFF</string>
+				<key>foreground</key>
+				<string>#979797FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_336699FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#336699FF</string>
+				<key>foreground</key>
+				<string>#DCDCDCFF</string>
 			</dict>
 		</dict>
 	</array>

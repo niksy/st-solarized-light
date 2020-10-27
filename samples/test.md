@@ -17,9 +17,12 @@ H~2~O.^[a contrived footnote]
 
 ## Heading styles can be mixed
 
-And matched, and they still fold **properly**
+And *matched*, and they still fold **properly**
 
 * * * *
+
+* foo
+* bar
 
 Some code:
 
