@@ -33,7 +33,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -2569,7 +2569,7 @@
 			<key>name</key>
 			<string>Git Rebase: SHA</string>
 			<key>scope</key>
-			<string>constant.sha.git-rebase</string>
+			<string>constant.sha.git-rebase, meta.commit.git.rebase constant.numeric.hex.hash.git.rebase</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -2580,9 +2580,11 @@
 			<key>name</key>
 			<string>Git Rebase: Command</string>
 			<key>scope</key>
-			<string>support.function.git-rebase</string>
+			<string>support.function.git-rebase, meta.commit.git.rebase keyword.operator.commit.pick.git.rebase</string>
 			<key>settings</key>
 			<dict>
+				<key>foreground</key>
+				<string>#268bd2</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
@@ -2591,18 +2593,20 @@
 			<key>name</key>
 			<string>Git Config: Section</string>
 			<key>scope</key>
-			<string>meta.section.git-config</string>
+			<string>meta.section.git-config, entity.name.section.git.config, punctuation.definition.brackets.begin.git.config, punctuation.definition.brackets.end.git.config</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#6c71c4</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Git Config: Section name</string>
 			<key>scope</key>
-			<string>entity.name.section.git-config</string>
+			<string>entity.name.section.git-config, meta.brackets.git.config string.quoted.double.git.config</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -2624,11 +2628,22 @@
 			<key>name</key>
 			<string>Git Config: Property declaration</string>
 			<key>scope</key>
-			<string>meta.value-pair.section-item.git-config</string>
+			<string>meta.value-pair.section-item.git-config, string.unquoted.value.git.config</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#2aa198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Config: Property declaration, shell</string>
+			<key>scope</key>
+			<string>meta.mapping.value.git.config source.shell</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F4EED9</string>
 			</dict>
 		</dict>
 		<dict>
