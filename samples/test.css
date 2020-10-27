@@ -26,6 +26,14 @@ div.styled {
 	table-layout:fixed;
 }
 
+.content-navigation:hover {
+	color: #f00;
+}
+
+.content-navigation:enter {
+	color: #f00;
+}
+
 @media screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
 	ul:last-of-type {
 		display: none;

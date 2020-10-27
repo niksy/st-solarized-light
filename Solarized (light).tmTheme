@@ -73,6 +73,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#DC322F</string>
+				<key>background</key>
+				<string>#F4EED9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -136,7 +138,7 @@
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>entity.name.function</string>
+			<string>entity.name.function, meta.function-call.sass variable.function.sass, entity.other.animation-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -365,7 +367,7 @@
 			<key>name</key>
 			<string>CSS: Property name (body)</string>
 			<key>scope</key>
-			<string>entity.name.tag.css, support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss</string>
+			<string>entity.name.tag.css, support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss, meta.property-name.css support.type.vendor-prefix.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -378,7 +380,7 @@
 			<key>name</key>
 			<string>CSS: @ rules (purple)</string>
 			<key>scope</key>
-			<string>punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, keyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss, variable.other.less, variable.declaration.less, variable.interpolation.less, keyword.control.at-rule.css, keyword.control.at-rule.scss, keyword.control.at-rule.supports.css, keyword.control.at-rule.supports.scss, keyword.control.at-rule.mixin.scss, meta.at-rule.import.scss support.function.url.scss, keyword.control.at-rule.viewport.css, keyword.control.at-rule.viewport.scss, keyword.control.return.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss</string>
+			<string>punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, keyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss, variable.other.less, variable.declaration.less, variable.interpolation.less, keyword.control.at-rule.css, keyword.control.at-rule.scss, keyword.control.at-rule.supports.css, keyword.control.at-rule.supports.scss, keyword.control.at-rule.mixin.scss, meta.at-rule.import.scss support.function.url.scss, keyword.control.at-rule.viewport.css, keyword.control.at-rule.viewport.scss, keyword.control.return.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss, meta.function.declaration.sass keyword.control.at-rule.sass, keyword.control.at-rule.return.sass, keyword.control.at-rule.extend.sass, meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, meta.at-rule.sass keyword.control.at-rule.sass, keyword.control.at-rule.keyframe.css, keyword.control.at-rule.keyframe.css support.type.property-vendor.css, keyword.control.at-rule.at-root.sass, meta.at-rule.each.sass keyword.control.flow.sass, keyword.control.at-rule.module.sass, keyword.control.flow.conditional.sass, meta.at-rule.sass keyword.control.flow.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -391,7 +393,7 @@
 			<key>name</key>
 			<string>CSS: @media, @supports, @import rules</string>
 			<key>scope</key>
-			<string>meta.at-rule.import, meta.at-rule.media, meta.at-rule.supports, meta.at-rule.media keyword.control.operator, meta.at-rule.media support.function.misc, meta.at-rule.media constant.numeric.css, meta.at-rule.media keyword.other.unit.css, meta.at-rule.media constant.numeric.scss, meta.at-rule.media keyword.other.unit.scss</string>
+			<string>meta.at-rule.import, meta.at-rule.media, meta.at-rule.supports, meta.at-rule.media keyword.control.operator, meta.at-rule.media support.function.misc</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -417,7 +419,7 @@
 			<key>name</key>
 			<string>CSS: Numeric Value (blue)</string>
 			<key>scope</key>
-			<string>support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css</string>
+			<string>support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, constant.numeric.integer.decimal.css, constant.numeric.float.decimal.css, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -430,7 +432,7 @@
 			<key>name</key>
 			<string>CSS: String, value and constants (azure)</string>
 			<key>scope</key>
-			<string>variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss, string.quoted.single.css, string.quoted.double.css, constant.character.escaped.css, string.quoted.variable.parameter.url, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, support.constant.property-value.css</string>
+			<string>variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss, string.quoted.single.css, string.quoted.double.css, constant.character.escaped.css, string.quoted.variable.parameter.url, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, support.constant.property-value.css, meta.property-value.css string.unquoted.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -467,7 +469,7 @@
 			<key>name</key>
 			<string>CSS: : , () (body)</string>
 			<key>scope</key>
-			<string>punctuation.terminator.rule.css, punctuation.terminator.rule.scss, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.css, punctuation.separator.key-value.scss, punctuation.scss, punctuation.css, keyword.operator.less, entity.name.tag.reference.scss</string>
+			<string>punctuation.terminator.rule.css, punctuation.terminator.rule.scss, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.css, punctuation.separator.key-value.scss, punctuation.scss, punctuation.css, keyword.operator.less, entity.name.tag.reference.scss, punctuation.definition.group.begin.css, punctuation.definition.group.end.css, punctuation.definition.group.begin.sass, punctuation.definition.group.end.sass, meta.map.arguments.css punctuation.separator.css, punctuation.separator.sequence.css, meta.selector.css keyword.operator.ampersand.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -506,7 +508,7 @@
 			<key>name</key>
 			<string>CSS .class (yellow)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.suffix.scss, entity.other.attribute-name.class.css, entity.other.less.mixin</string>
+			<string>entity.other.attribute-name.suffix.scss, entity.other.attribute-name.class.css, entity.other.less.mixin, meta.selector.css entity.other.attribute-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -532,7 +534,7 @@
 			<key>name</key>
 			<string>CSS :pseudo (orange)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css, entity.other.attribute-name.pseudo-class.css-modules.css</string>
+			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css, entity.other.attribute-name.pseudo-class.css-modules.css, entity.other.pseudo-class.css, entity.other.pseudo-element.css, entity.other.pseudo-element.css support.type.vendor-prefix.css, entity.other.pseudo-class.css support.type.vendor-prefix.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -545,7 +547,7 @@
 			<key>name</key>
 			<string>SCSS: Variables (pink)</string>
 			<key>scope</key>
-			<string>variable, variable.scss, variable.other.scss</string>
+			<string>variable, variable.scss, variable.other.scss, variable.declaration.sass, punctuation.definition.variable.sass, variable.other.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -641,6 +643,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS: Node constants</string>
+			<key>scope</key>
+			<string>support.constant.node.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#859900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS: Variable name</string>
 			<key>scope</key>
 			<string>variable.other.readwrite.js, meta.function-call.constructor.js variable.type.js</string>
@@ -656,7 +669,7 @@
 			<key>name</key>
 			<string>JS: Console and debugger</string>
 			<key>scope</key>
-			<string>entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js</string>
+			<string>entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js, keyword.other.debugger.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -717,7 +730,7 @@
 			<key>name</key>
 			<string>JS: Object, unqouted method</string>
 			<key>scope</key>
-			<string>meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js</string>
+			<string>meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js, meta.object-literal.js meta.function.declaration.js entity.name.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -754,7 +767,7 @@
 			<key>name</key>
 			<string>JS: (), {}, [], ,</string>
 			<key>scope</key>
-			<string>source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js</string>
+			<string>source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js, punctuation.section.block.begin.js, punctuation.section.block.end.js, punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json, punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -802,7 +815,7 @@
 			<key>name</key>
 			<string>JS: Template string, element start and begin</string>
 			<key>scope</key>
-			<string>punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js</string>
+			<string>punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -3289,6 +3302,83 @@
 			<dict>
 				<key>foreground</key>
 				<string>#B58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FFFFFF01</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF01</string>
+				<key>foreground</key>
+				<string>#757575FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_3BBFCEFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#3BBFCEFF</string>
+				<key>foreground</key>
+				<string>#191919FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FFDDDDFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFDDDDFF</string>
+				<key>foreground</key>
+				<string>#676767FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_BB0066FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#BB0066FF</string>
+				<key>foreground</key>
+				<string>#C3C3C3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_333344FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#333344FF</string>
+				<key>foreground</key>
+				<string>#B4B4B4FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_666777FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#666777FF</string>
+				<key>foreground</key>
+				<string>#E8E8E8FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_ABC123FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ABC123FF</string>
+				<key>foreground</key>
+				<string>#282828FF</string>
 			</dict>
 		</dict>
 	</array>

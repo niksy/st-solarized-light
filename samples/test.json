@@ -1,4 +1,5 @@
-{"widget":
+{
+	"widget":
 	{
 		"debug": "on",
 		"window": {
@@ -22,7 +23,8 @@
 			"hOffset": 250,
 			"vOffset": 100,
 			"alignment": "center",
-			"onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+			"onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;",
+			"foo": [1,2,null]
 		}
 	}
 }

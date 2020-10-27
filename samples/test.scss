@@ -228,6 +228,16 @@ $animals: (puma, black, default),
   }
 }
 
+@if conditions {
+
+}
+
+@for $i from 1 through 3 {
+	.item-#{$i} {
+
+	}
+}
+
 .foo {
 	@include bar(
 		('baz', 1),
@@ -238,6 +248,9 @@ $animals: (puma, black, default),
 		}
 	}
 }
+
+@use 'foo';
+@forward 'foo';
 
 /* CSS Modules */
 

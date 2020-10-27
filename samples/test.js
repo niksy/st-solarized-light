@@ -5,6 +5,12 @@ var nums = evens.map(({v, i}) => v + i);
 var nums = evens.map(([v, i]) => v + i);
 var pairs = evens.map(v => ({even: v, odd: v + 1}));
 
+const a = require('a');
+__dirname, __filename;
+
+module.exports = {};
+exports = {};
+
 // Statement bodies
 nums.forEach(v => {
   if (v % 5 === 0)
@@ -189,6 +195,11 @@ export function sum(x, y) {
 }
 export var pi = 3.141593;
 
+export {
+  sum,
+  pi
+};
+
 // app.js
 import * as math from "lib/math";
 alert("2π = " + math.sum(math.pi, math.pi));
@@ -278,7 +289,7 @@ var MyClass = (function() {
 
   MyClass.prototype = {
     doStuff: function() {
-      ... this[key] ...
+      return this[key];
     }
   };
 
@@ -323,16 +334,14 @@ var p = timeout(1000).then(() => {
     return Promise.all([timeout(100), timeout(200)]);
 })
 
-// JSX
-
-const App = () => {
-  return (
-    <div className="foo">{
-      [].map(() => <button type="button" onClick={this.handleClick}></button>)
-    }</div>
-  );
+async function main () {
+  await foo();
 }
-ReactDOM.render(<App />, document.getElementById('app'));
+
+const array = [...array];
+const obj = {
+  ...obj
+}
 
 /**
 sample javascript from xui
